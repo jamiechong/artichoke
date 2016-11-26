@@ -37,7 +37,7 @@ function decode(phrase, keyword='artichoke') {
     }
     p = p-1; 
     if (p<0) {
-      p = x.length=1; // handle negative -1
+      p = x.length-1; // handle negative -1
     }
     result.push(x[p]);
   }
